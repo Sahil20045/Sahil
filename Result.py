@@ -24,7 +24,7 @@ for i in range(num_students):
         mark = float(input(f"  Semester {semester + 1} marks: "))
         marks.append(mark)
     total_marks = sum(marks)
-    percentage = total_marks / 6  # Assuming each semester is out of 100
+    percentage = total_marks / 6 
     grade = calculate_grade(percentage)
     students.append({"Student": i + 1, "Marks": marks, "Percentage": percentage, "Grade": grade})
 
